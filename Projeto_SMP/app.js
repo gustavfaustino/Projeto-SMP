@@ -1,6 +1,6 @@
 // fazer a importação do express
 const express = require('express');
-const router = require('./routes/index')
+const router = require('./routes/index') // Requisição das rotas
 
 
 /**
@@ -11,5 +11,6 @@ const router = require('./routes/index')
 const app = express()
 app.use('/', router)
 
-module.exports = app // exportar para então
-// importar
+app.use(express.json()) // Tratara as requisições de POST como GET.
+
+module.exports = app // exportar para então importar
