@@ -1,0 +1,11 @@
+npm init //Para nicializar o npm para o Js
+
+npm install express --save
+/* Iniciar o framework 'Express' para nossa API. Semelhante ao SpringBot do Java e OnRails do Ruby */
+
+npm install nodemon --save-dev
+/* nodemon monitora os arquivos Js do projeto. Havendo algum problema nos arquivos
+ele avisa o servidor */
+
+nodemon SÓ monitora arquivos JS
+
