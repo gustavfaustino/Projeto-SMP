@@ -6,4 +6,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-./Projeto_SMP/Projeto_SMP/node_modules
+#Ignore node module dir
+node_modules
